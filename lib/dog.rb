@@ -1,2 +1,20 @@
 # Your code goes here!
-class radio_button_tag
+class Dog 
+  
+  def instantiation(dog)
+    @dog = dog
+  end
+  
+  def name=(name)
+    @name = name
+  end
+  
+  def name 
+    @name
+  end
+  
+  def bark
+    puts "Woof!"
+  end
+  
+end
